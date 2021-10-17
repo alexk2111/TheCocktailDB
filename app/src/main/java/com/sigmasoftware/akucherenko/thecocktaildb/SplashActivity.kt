@@ -13,11 +13,10 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-//        val maimIntent = Intent(this, MainActivity::class.java)
-//        maimIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        val maimIntent = Intent(this, MainActivity::class.java)
         GlobalScope.launch(Dispatchers.Main) {
-            delay(5000)
-//            startActivity(maimIntent)
+            delay(2000)
+            startActivity(maimIntent)
         }
 
     }
