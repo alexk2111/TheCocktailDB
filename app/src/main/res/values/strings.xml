@@ -3,4 +3,8 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="tab_text_1">Ordinary Drink</string>
     <string name="tab_text_2">Cocktail</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="buttonToOrder">To Order</string>
+    <string name="thecocktaildb">TheCocktailDB</string>
 </resources>

@@ -15,9 +15,8 @@ class SplashActivity : AppCompatActivity() {
 
         val maimIntent = Intent(this, MainActivity::class.java)
         GlobalScope.launch(Dispatchers.Main) {
-            delay(2000)
+            delay(3000)
             startActivity(maimIntent)
         }
-
     }
 }
